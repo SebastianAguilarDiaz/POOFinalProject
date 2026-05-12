@@ -1,4 +1,4 @@
-package com.github.sebastianaguilardiaz;
+package com.github.SYM;
 
 public class Main {
     public static void main(String[] args) {
