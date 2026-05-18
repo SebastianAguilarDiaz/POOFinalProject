@@ -1,8 +1,7 @@
 package com.github.SYM;
 
 public abstract class Card {
-    private char[][] back;
-    protected char[][] front;
+    
 
     public static final int NUMERIC = 1;
     public static final int REVERSE = 2;
@@ -10,6 +9,9 @@ public abstract class Card {
     public static final int WIDTH = 8;
     public static final int HEIGHT = 8;
 
+    private char[][] back=new char[Card.HEIGHT][Card.WIDTH];
+    protected char[][] front=new char[Card.HEIGHT][Card.WIDTH];
+    
     private boolean upwards;
     protected Board b;
     private int cardType;
