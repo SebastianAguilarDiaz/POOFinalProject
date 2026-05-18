@@ -34,7 +34,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <mainClass>com.github.SYM.Main</mainClass>
+                    <mainClass>com.github.SYM.AppMenu</mainClass>
                 </configuration>
             </plugin>
 
@@ -46,7 +46,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.SYM.Main</mainClass>
+                            <mainClass>com.github.SYM.AppMenu</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
